@@ -8,7 +8,7 @@ class SessionsController {
     const { username, password } = request.body;
 
     const userFake = {
-      id: 1,
+      id: "1",
       username: "Joao",
       password: "1234",
     };
